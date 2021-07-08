@@ -1,6 +1,16 @@
 # lunchbot ![test](https://github.com/vikpe/lunchbot/workflows/test/badge.svg?branch=master)
 > A Discord bot for coordinating lunches
 
+## Configuration
+
+**Environment variables**
+* `ANNOUNCEMENT`: `1` (enable) or `0` (disable) automatic posting of lunch message. Defaults to `0`.
+* `LUNCHBOT_TOKEN`: Bot token (found in Discord developer settings)
+
+**config.json**
+
+Various configuration options.
+ 
 ## Development
 
 ### Setup
